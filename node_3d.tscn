@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cj30rsj8jbv76"]
+
+[ext_resource type="PackedScene" uid="uid://knatfiria7om" path="res://assets/low_poly_supercar/scene.gltf" id="1_a202f"]
+
+[node name="Node3D" type="Node3D" unique_id=1934241199]
+
+[node name="Car" parent="." unique_id=773887592 instance=ExtResource("1_a202f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3353808, 0.38300228, 6.611177)
